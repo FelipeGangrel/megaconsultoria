@@ -1,0 +1,267 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/screen.scss */
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+/* line 9, ../sass/screen.scss */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/screen.scss */
+p {
+  line-height: 1.5em;
+  margin-top: 0.75em;
+}
+
+/* line 16, ../sass/screen.scss */
+h1 {
+  font-size: 2em;
+  line-height: 2.1em;
+}
+
+/* line 18, ../sass/screen.scss */
+h2 {
+  font-size: 1.8em;
+  line-height: 1.9em;
+}
+
+/* line 20, ../sass/screen.scss */
+h3 {
+  font-size: 1.6em;
+  line-height: 1.7em;
+}
+
+/* line 22, ../sass/screen.scss */
+h4 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+/* line 24, ../sass/screen.scss */
+.center {
+  text-align: center;
+}
+/* line 26, ../sass/screen.scss */
+.center img {
+  margin: 0 auto;
+}
+
+/* line 30, ../sass/screen.scss */
+.slide {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 34, ../sass/screen.scss */
+.btn {
+  background: #74c1c7;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px 20px 10px 20px;
+}
+
+/* line 43, ../sass/screen.scss */
+.btn:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  background: #50b1b8;
+}
+
+/* line 50, ../sass/screen.scss */
+#slide1 {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background-image: url(../img/herobg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+}
+
+/* line 58, ../sass/screen.scss */
+.marca {
+  padding-top: 100px;
+}
+/* line 60, ../sass/screen.scss */
+.marca p {
+  font-size: 1.2em;
+}
+
+/* line 64, ../sass/screen.scss */
+.empresa {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+/* line 69, ../sass/screen.scss */
+#slide2 h4 {
+  color: #74c1c7;
+  font-weight: 700;
+}
+
+/* line 76, ../sass/screen.scss */
+#slide3 h3 {
+  color: #74c1c7;
+  font-weight: 700;
+}
+
+/* line 81, ../sass/screen.scss */
+#slide4 {
+  background: #464646;
+}
+
+/* line 84, ../sass/screen.scss */
+.membro {
+  padding-top: 20px;
+}
+/* line 86, ../sass/screen.scss */
+.membro .foto img {
+  -webkit-filter: saturate(0%);
+  -moz-filter: saturate(0%);
+  -o-filter: saturate(0%);
+  -ms-filter: saturate(0%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+/* line 97, ../sass/screen.scss */
+.membro .nome {
+  margin-top: 0px;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #74c1c7;
+}
+/* line 103, ../sass/screen.scss */
+.membro .cargo {
+  margin-top: 0px;
+  font-size: 0.8em;
+  line-height: 1em;
+  color: white;
+}
+/* line 109, ../sass/screen.scss */
+.membro .conexoes {
+  display: block;
+  padding-top: 10px;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 115, ../sass/screen.scss */
+.membro .conexoes .link {
+  width: 29.33%;
+  margin: 2%;
+  float: left;
+}
+/* line 119, ../sass/screen.scss */
+.membro .conexoes .link a img {
+  -webkit-filter: saturate(100%);
+  -moz-filter: saturate(100%);
+  -o-filter: saturate(100%);
+  -ms-filter: saturate(100%);
+}
+/* line 125, ../sass/screen.scss */
+.membro .conexoes .link a img:hover {
+  -webkit-filter: saturate(150%);
+  -moz-filter: saturate(150%);
+  -o-filter: saturate(150%);
+  -ms-filter: saturate(150%);
+}
+
+/* line 134, ../sass/screen.scss */
+.membro:hover p.foto > img {
+  -webkit-filter: saturate(100%);
+  -moz-filter: saturate(100%);
+  -o-filter: saturate(100%);
+  -ms-filter: saturate(100%);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 145, ../sass/screen.scss */
+  .servicos * {
+    text-align: center;
+  }
+  /* line 148, ../sass/screen.scss */
+  .servicos img {
+    margin: 0 auto;
+  }
+}
